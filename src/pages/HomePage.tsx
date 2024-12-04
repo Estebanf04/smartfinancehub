@@ -12,15 +12,15 @@ export default function HomePage() {
   return (
     <>
         <Header/>
-          <div className="my-14 sm:my-24 px-4">
-            <Hero/>
-            <ImagePresentation/>
-            <Companies/>
-            <Functions/>
-            <Pricing/>
-            <Testimonials/>
-            <FrequentlyAskedQuestions/>
-          </div>
+            <div className="my-14 sm:my-24 px-4">
+                <Hero/>
+                <ImagePresentation/>
+                <Companies/>
+                <Functions/>
+                <Pricing/>
+                <Testimonials/>
+                <FrequentlyAskedQuestions/>
+            </div>
         <Footer/>
     </>
     

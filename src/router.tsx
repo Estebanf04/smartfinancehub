@@ -5,10 +5,10 @@ import ContactPage from './pages/ContactPage'
 export default function AppRouter() {
   return (
     <BrowserRouter>
-        <Routes>
-            <Route path='/' element={<HomePage/>} index/>
-            <Route path='/contact' element={<ContactPage/>}/>
-        </Routes>
+          <Routes>
+              <Route path='/' element={ <HomePage/> } index/>
+              <Route path='/contact' element={ <ContactPage/> }/>
+          </Routes>
     </BrowserRouter>
   )
 }
